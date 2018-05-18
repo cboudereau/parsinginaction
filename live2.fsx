@@ -122,7 +122,6 @@ let finalSample = """
     optional string EnName=6;
     required string Param=7;
     required bytes Result=8;
-    required bool IsFinished=9;
     required bool IsFinished=9; }
     
     message GetAllCalulateResponse{

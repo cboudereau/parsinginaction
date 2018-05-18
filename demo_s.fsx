@@ -66,6 +66,23 @@ run pScalar "boolean"
 run pScalar "hello"
 
 module ScalarType = 
+    let types = 
+        [ "double"
+          "float"
+          "int32"
+          "int64"
+          "uint32"
+          "uint64"
+          "sint32"
+          "sint64"
+          "fixed32"
+          "fixed64"
+          "sfixed32"
+          "sfixed64"
+          "bool"
+          "string"
+          "bytes" ]
+
     let private mapping = 
         [ "double",  typeof<double>
           "float",   typeof<float>

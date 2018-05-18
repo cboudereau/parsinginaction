@@ -1,3 +1,28 @@
+//https://github.com/cboudereau/parsinginaction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #I __SOURCE_DIRECTORY__
 #r "packages/FParsec/lib/net40-client/FParsecCS.dll"
 #r "packages/FParsec/lib/net40-client/FParsec.dll"
@@ -10,6 +35,29 @@ open FParsec
 // spec : https://developers.google.com/protocol-buffers/docs/proto3
 let (<!>) f x = x |>> f
 let (<*>) f x = f >>= fun f' -> x >>= fun x' -> preturn (f' x')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 type Type = 
     | Scalar of string
